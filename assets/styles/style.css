@@ -1,3 +1,10 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
 
 header {
     height: 901px;
@@ -5,12 +12,13 @@ header {
 }
 
 .container {
-    display: flex;
     width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .headline {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-top: 71px;
 }
@@ -38,7 +46,74 @@ nav {
     margin-right: 13px;
 }
 .header-phone {
+    display: flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
+}
+
+.work-time {
+    margin-top: 154px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.greetings {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 88px;
+}
+
+.header-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.button-reserve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 270px;
+    background-color: #3A4574;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+}
+.social {
+    display: flex;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
+.events {
+    height: 808px;
+    background-color: #E5E5E5;
 }
