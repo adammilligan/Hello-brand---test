@@ -43,6 +43,9 @@ nav {
 }
 
 .phone-img {
+    width: 22px;
+    height: 22px;
+    background-image: url("../images/phone.png");
     margin-right: 13px;
 }
 .header-phone {
@@ -50,6 +53,13 @@ nav {
     align-items: center;
     font-size: 16px;
     font-weight: 400;
+    color: #FFFFFF;
+}
+
+.phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #FFFFFF;
 }
 
@@ -195,4 +205,73 @@ nav {
     z-index: 2;
     right: 0px;
     bottom: 64px;
+}
+
+.reviews {
+    height: 782px;
+    background-color: #3A4574;
+}
+
+.review-head {
+    width: 83px;
+    height: 58px;
+    background-image: url("../images/“.png");
+    margin-top: 219px;
+}
+/*#D3B47F*/
+
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.review-main {
+    margin-top: 34px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #D3B47F;
+    text-align: center;
+}
+
+.review-text {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.review-author {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #D3B47F;
+    align-items: center;
+}
+
+.review-button {
+    border: none; 
+    outline: none;
+    background: none;
+    position: absolute;
+}
+
+.button-right {
+    right: 0;
+    top: 391px;
+}
+
+.button-left {
+    left: 0;
+    top: 391px;
+}
+
+.review-button svg:hover {
+    stroke: #D3B47F;
 }
