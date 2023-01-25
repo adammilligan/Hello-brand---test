@@ -1,0 +1,44 @@
+
+header {
+    height: 901px;
+    background-image: url("../images/headerBackgound.png");
+}
+
+.container {
+    display: flex;
+    width: 1170px;
+}
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 71px;
+}
+
+nav {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    justify-content: space-between;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+
+.menu-item:last-child{
+    margin-right: 0;
+}
+
+.phone-img {
+    margin-right: 13px;
+}
+.header-phone {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
