@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/assets/js/plugins/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/js/plugins/owlcarousel/assets/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/style.css">
@@ -17,8 +19,8 @@
     <header class="header">
         <div class="container">
             <section class="headline">
-                <div class="logo">
-                    <img src="assets/images/NAAM1.png" alt="" class="header-logo">
+                <div class="header-logo">
+                    <img src="assets/images/NAAM1.png" alt="" class="header-logo-img">
                 </div>
                 <nav class="header menu">
                     <a href="" class="menu-item">À la carte</a>
@@ -31,15 +33,15 @@
                     <a class="phone-number" href="tel:+32 9 282 57 25">+32 9 282 57 25</a>
                 </div>
             </section>
-            <h2 class="work-time">OPEN EVERYDAY 6AM - 9PM</h2>
+            <h2 class="work-time">OPEN EVERYDAY&nbsp;&nbsp;6AM - 9PM</h2>
             <h1 class="greetings">A bad day with lunch is better than<br>a good day without it.</h1>
             <div class="header-actions">
                 <a href="" class="button-reserve">Reserve a table</a>
-                <div class="socials">
-                    <a href="" class="social fb">Fb</a>
-                    <a href="" class="social lg">Lg</a>
-                    <a href="" class="social Tw">Tw</a>
-                    <a href="" class="social Yt">Yt</a>
+                <div class="socials header-socials">
+                    <a href="" class="social header-social facebook">Fb</a>
+                    <a href="" class="social header-social instagram">Ig</a>
+                    <a href="" class="social header-social twitter">Tw</a>
+                    <a href="" class="social header-social youtube">Yt</a>
                 </div>
             </div>
         </div>
@@ -103,22 +105,32 @@
     </section>
     <section class="reviews">
         <div class="container">
-            <div class="review">
-                <button class="review-button button-left">
-                    <svg width="23" height="50" viewBox="0 0 23 50" fill="none" stroke="#FFFFFF" transform='rotate(180)' xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.10418 1.89998L20.1209 20.9166C22.3667 23.1625 22.3667 26.8375 20.1209 29.0833L1.10419 48.1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                <button class="review-button button-right">
-                    <svg width="23" height="50" viewBox="0 0 23 50" fill="none" stroke="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.10418 1.89998L20.1209 20.9166C22.3667 23.1625 22.3667 26.8375 20.1209 29.0833L1.10419 48.1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                <div class="review-head"></div>
-                <h2 class="review-main">Goede service, lekker eten, toffe ambiance</h2>
-                <p class="review-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor<br>invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et<br>justo duo  dolores et ea rebum. Stet clita kasd gubergren.
-                </p>
-                <h3 class="review-author">ALAIN HEYNDRICKX</h3>
+            <div class="review-wrapper">
+          
+
+                <div class="js-slider-reviews owl-carousel">
+                    <div class="review">
+                        <div class="review-head"></div>
+                        <h2 class="review-main">Goede service, lekker eten, toffe ambiance</h2>
+                        <p class="review-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor<br>invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et<br>justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </p>
+                        <h3 class="review-author">ALAIN HEYNDRICKX</h3>
+                    </div>
+                    <div class="review">
+                        <div class="review-head"></div>
+                        <h2 class="review-main">Goede service, lekker eten, toffe ambiance</h2>
+                        <p class="review-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor<br>invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et<br>justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </p>
+                        <h3 class="review-author">ALAIN HEYNDRICKX</h3>
+                    </div>
+                    <div class="review">
+                        <div class="review-head"></div>
+                        <h2 class="review-main">Goede service, lekker eten, toffe ambiance</h2>
+                        <p class="review-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor<br>invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et<br>justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </p>
+                        <h3 class="review-author">ALAIN HEYNDRICKX</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -152,26 +164,90 @@
             <div class="interior-description">
                 <h2 class="interior-header">Sfeerfoto's</h2>
                 <p class="interior-text">De beste manier om de sfeer te ervaren is eens langskomen.<br>
-                    In tussentijd hebben we hier alvast wat foto’s voor je klaar.</p>
-                <button class="interior-button button-left-picture">
-                    <svg width="23" height="50" viewBox="0 0 23 50" fill="none" stroke="#FFFFFF" transform='rotate(180)' xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.10418 1.89998L20.1209 20.9166C22.3667 23.1625 22.3667 26.8375 20.1209 29.0833L1.10419 48.1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                <button class="interior-button button-right-picture">
-                    <svg width="23" height="50" viewBox="0 0 23 50" fill="none" stroke="#FFFFFF"  xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.10418 1.89998L20.1209 20.9166C22.3667 23.1625 22.3667 26.8375 20.1209 29.0833L1.10419 48.1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
+                    In tussentijd hebben we hier alvast wat foto’s voor je klaar.
+                </p>
             </div>
         </div>
-        <div class="interior-photos">
-            <div class="interior-photo photo1"></div>
-            <div class="interior-photo photo2"></div>
-            <div class="interior-photo photo3"></div>
+        <div class="js-slider-interior owl-carousel">
+            <img src="/assets/images/interior2.png" alt="" class="interior-photo">
+            <img src="/assets/images/interior3.png" alt="" class="interior-photo">
+            <img src="/assets/images/interior1.png" alt="" class="interior-photo">
         </div>
     </section>
-
+    <section class="feedback">
+        <div class="container container-feedback">
+            <div class="contacts">
+                <h2 class="contacts-header">Contacts</h2>
+                <div class="contacts-wrapper contacts-phone">
+                    <a class="contacts-images contacts-phone-image" href="tel:+32 9 282 57 25"></a>
+                    <div class="contacts-phone-number">
+                        <p class="contacts-description">Phone Number</p>
+                        <a href="tel:+32 9 282 57 25" class="contacts-text contacts-phone-number">+32 9 282 57 25</a>
+                    </div>
+                </div>
+                <div class="contacts-wrapper contacts-mail">
+                    <a href="mailto:info@email.com" class="contacts-images contacts-mail-image"></a>
+                    <div class="contacts-mail-text">
+                        <p class="contacts-description">Email</p>
+                        <a href="mailto:info@email.com" class="contacts-text contacts-mail-email">info@email.com</a>
+                    </div>
+                </div>
+                <div class="contacts-wrapper contacts-working">
+                    <div class="contacts-images working-image"></div>
+                    <div class="working-text">
+                        <p class="contacts-description">Opening Hours</p>
+                        <p class="contacts-text working-time">Everyday from 6 AM - 9 PM</p>
+                    </div>
+                </div>
+                <div class="contacts-wrapper contacts-address">
+                    <div class="contacts-images address-image"></div>
+                    <div class="address-text">
+                        <p class="contacts-description">Map Street</p>
+                        <a href="https://www.google.com/maps/place/%D0%9A%D0%BE%D0%B2%D0%BE%D1%80%D0%BA%D0%B8%D0%BD%D0%B3+Place/@44.6728305,37.7720397,17z/data=!3m1!4b1!4m5!3m4!1s0x40f1f9b021c96533:0xfdb86706c4932373!8m2!3d44.6728305!4d37.7742337" class="contacts-text address-street">Jl. Raya Surabaya 2787</a>
+                    </div>
+                </div>
+            </div>
+            <div class="questions">
+                <h2 class="question-header">have any questions?</h2>
+                <form action="" class="question-form" id="form">
+                    <div class="input-wrapper">
+                        <div class="half-display-input">
+                            <label for="name" class="input-label">Name</label>
+                            <input type="text" id="name" class="input-text input-name" placeholder="Input your name">
+                        </div>
+                        <div class="half-display-input">
+                            <label for="email" class="input-label">Email</label>
+                            <input type="text" id="email" class="input-text input-email" placeholder="Input your email">
+                        </div>
+                    </div>
+                    <div class="input-wrapper full-display-input">
+                        <label for="request" class="input-label">Speciale Request</label>
+                        <textarea type="text" id="request" class="input-text input-request" placeholder="Input your special request"></textarea>
+                    </div>
+                    <input type="submit" value="Send" id="submit-button" class="submit-button">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2837.291240275538!2d37.77204501585057!3d44.67283047909954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f1f9b021c96533%3A0xfdb86706c4932373!2z0JrQvtCy0L7RgNC60LjQvdCzIFBsYWNl!5e0!3m2!1sru!2sru!4v1674730583994!5m2!1sru!2sru" width="1170" height="547" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+    </section>
+    <section class="footer">
+        <div class="container container-footer">
+            <div class="footer-logo">
+                <img src="/assets/images/footerLogo.png" alt="" class="footer-logo-img">
+            </div>
+            <div class="socials footer-socials">
+                <a href="" class="social footer-social facebook">Fb</a>
+                <a href="" class="social footer-social instagram">Ig</a>
+                <a href="" class="social footer-social twitter">Tw</a>
+                <a href="" class="social footer-social youtube">Yt</a>
+            </div>
+        </div>
+    </section>
+    <script src="/assets/js/plugins/jquery/jquery-3.6.3.min.js"></script>
+    <script src="/assets/js/plugins/owlcarousel/owl.carousel.min.js"></script>
     <script src="/assets/js/index.js"></script>
 </body>
 </html>
