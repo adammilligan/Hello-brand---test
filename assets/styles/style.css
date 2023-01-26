@@ -6,6 +6,12 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
 header {
     height: 901px;
     background-image: url("../images/headerBackgound.png");
@@ -256,9 +262,6 @@ nav {
 }
 
 .review-button {
-    border: none; 
-    outline: none;
-    background: none;
     position: absolute;
 }
 
@@ -272,6 +275,152 @@ nav {
     top: 391px;
 }
 
-.review-button svg:hover {
+.review-button > svg:hover {
     stroke: #D3B47F;
 }
+
+.food {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food {
+    margin-bottom: 30px;
+}
+.upper-food {
+    margin-top: 109px;    
+}
+
+.lower-food {
+    margin-bottom: 50px;
+}
+
+.upper-food > .food-picture {
+    width: 670px;
+    height: 560px;
+    background-image: url("../images/goat.png");
+} 
+
+.middle-food > .food-picture {
+    width: 670px;
+    height: 560px;
+    background-image: url("../images/beer.png");
+}
+
+.lower-food > .food-picture {
+    width: 670px;
+    height: 560px;
+    background-image: url("../images/coctails.png");
+}
+
+.food-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.thesis {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 88px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+
+.thesis:after {
+    position: absolute;
+    margin-top: 4px;
+    width: 108px;
+    margin-bottom: 16px;
+    border: 2px solid #D3B47F;
+    content: "";
+    left: -60px;
+    bottom: 270px;
+}
+
+.interior {
+    display: flex;
+    height: 605px;
+    background-color: #3A4574;
+    position: relative;
+}
+
+.interior-header {
+    margin-top: 68px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 88px;
+    color: #FFFFFF;
+    justify-content: left;
+}
+
+.interior-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    justify-content: left;
+}
+
+.interior-button {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.button-left-picture {
+    top: 100px;
+    right: 315px;
+}
+
+.button-right-picture {
+    top: 100px;
+    right: 250px;
+}
+
+.interior-button > svg:hover {
+    stroke: #D3B47F;
+}
+
+.interior-photos {
+    display: flex;
+    margin-top: 262px;
+    justify-content: space-between;
+    position: absolute;
+}
+
+/*.interior-photo {*/
+/*    margin-right: 30px;*/
+/*}*/
+
+/*.interior-photo:last-child {*/
+/*    margin-right: 0px;*/
+/*}*/
+
+.photo1 {
+    width: 445px;
+    height: 646px;
+    background-image: url("../images/interior1.png");
+}
+
+.photo2 {
+    width: 970px;
+    height: 646px;
+    background-image: url("../images/interior2.png");
+}
+
+.photo3 {
+    width: 445px;
+    height: 647px;
+    background-image: url("../images/interior3.png");
+}
+
+
